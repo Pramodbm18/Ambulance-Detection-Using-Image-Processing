@@ -1,0 +1,64 @@
+# Trained YOLO Model
+
+This folder contains the trained model used for ambulance detection.
+
+## Model File
+
+best.pt
+
+This file is the trained YOLO model that detects ambulances in traffic camera footage.
+
+## Model Information
+
+| Parameter | Value |
+|-----------|------|
+Model | YOLOv5 |
+Framework | PyTorch |
+Input Size | 640x640 |
+Classes | Ambulance |
+
+## Download Model
+
+If the model file is not present, download it from:
+
+Google Drive
+
+or
+
+HuggingFace
+
+or
+
+GitHub Release
+
+Example:
+
+https://drive.google.com/your-model-link
+
+## Place Model Here
+
+After downloading:
+
+models
+│
+└── best.pt
+
+## Training the Model
+
+Example YOLOv5 training command:
+
+python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --weights yolov5s.pt
+
+## Using the Model
+
+Run the detection script:
+
+python ai_detection/detect.py
+
+The script will automatically load the model:
+
+model = torch.hub.load(
+    "ultralytics/yolov5",
+    "custom",
+    path="models/best.pt"
+)
