@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=00FFAA&size=30&center=true&vCenter=true&width=800&lines=AI+Powered+Ambulance+Detection;Smart+Traffic+Signal+Control;Computer+Vision+%2B+IoT+Project;Built+by+Pramod+M" />
+<img src="https://readme-typing-svg.herokuapp.com?color=00FFAA&size=30&center=true&vCenter=true&width=800&lines=AI+Powered+Ambulance+Detection;Smart+Traffic+Signal+Control;Computer+Vision+%2B+IoT+Project;Built+by+Pramod+B+M" />
 </p>
 # 🚑 Smart Ambulance Detection & Traffic Signal Control System
 
