@@ -1,0 +1,7 @@
+git clone https://github.com/Pramodbm18/Ambulance-Detection-Using-Image-Processing
+
+cd Ambulance-Detection-Using-Image-Processing
+
+pip install -r requirements.txt
+
+python detect.py

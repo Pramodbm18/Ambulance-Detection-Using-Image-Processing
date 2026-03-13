@@ -1,6 +1,7 @@
 # This file lists the dependencies required for the AI Detection project.
-torch
 opencv-python
-requests
-paho-mqtt
+torch
 numpy
+matplotlib
+pandas
+ultralytics
